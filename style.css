@@ -1,0 +1,21 @@
+@import url(styles/header.css);
+
+:root {
+  --primary-color-white: #fafafa;
+  --second-color-white: #ffffff;
+  --color-red: #fa4a0c;
+  --color-dark-blue: #252b42;
+  --color-gray: #737373;
+
+  --font-montserrat: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-montserrat);
+}
