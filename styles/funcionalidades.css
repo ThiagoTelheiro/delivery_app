@@ -1,0 +1,36 @@
+.funcionalidades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+  text-align: center;
+  padding: 0 1em;
+}
+
+.funcionalidades__subparagrafo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-top: 4rem;
+}
+
+.funcionalidades__subtitulo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-red);
+}
+
+.funcionalidades__titulo {
+  font-size: 2.5rem;
+  color: var(--color-dark-blue);
+  font-weight: 700px;
+  line-height: 57px;
+  margin: 1em 0;
+}
+
+.funcionalidades__paragrafo {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--color-gray);
+  line-height: 38px;
+}
