@@ -2,6 +2,7 @@
 @import url(styles/hero.css);
 @import url(styles/funcionalidades.css);
 @import url(styles/download.css);
+@import url(styles/rodape.css);
 :root {
   --primary-color-white: #fafafa;
   --second-color-white: #ffffff;
