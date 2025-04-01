@@ -1,0 +1,43 @@
+.download {
+  background-color: var(--color-dark-blue);
+  padding: 6.875em 2.438em;
+  text-align: center;
+}
+
+.download__titulo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--second-color-white);
+  margin-bottom: 1em;
+}
+
+.download__paragrafo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-gray);
+  line-height: 38px;
+  margin-bottom: 2em;
+}
+
+.download__btn {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.download__btn-buy,
+.download__btn-try {
+  width: 50%;
+  padding: 1.125em 0;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--second-color-white);
+  font-weight: 700;
+  text-decoration: none;
+  background-color: var(--color-red);
+}
+
+.download__btn-try {
+    border: 1px solid var(--second-color-white);
+    background-color: transparent;
+}
