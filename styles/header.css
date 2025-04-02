@@ -22,6 +22,7 @@
 
   .cabecalho__navegacao-lista {
     display: flex;
+    justify-content: space-evenly;
     gap: 5em;
     list-style: none;
   }
