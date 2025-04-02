@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+.hero__texto {
+  padding: 3em;
+}
+
 .hero__texto-subtitulo {
   font-size: 1rem;
   font-weight: 700;
@@ -62,9 +66,12 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
-    padding: 4.5em 10em 4.5em 10em;
-    position: relative;
+    height: 90vh;
+    padding: 4.5em 7em 4.5em 7em;
+  }
+
+  .hero__texto {
+    padding: 0em;
   }
 
   .hero__texto-subtitulo {
@@ -92,10 +99,7 @@
 
   .hero__links-appstore {
     margin-bottom: 0;
-  }
-
-  .hero__imagem img {
-    position: absolute;
-    top: 600px;
+    border: 1px solid var(--primary-color-white);
+    color: var(--primary-color-white);
   }
 }
