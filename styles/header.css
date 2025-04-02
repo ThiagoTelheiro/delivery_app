@@ -10,3 +10,33 @@
   background-color: transparent;
   border: none;
 }
+
+.cabecalho__navegacao-lista {
+  display: none;
+}
+
+@media screen and (min-width: 769px) {
+  .cabecalho {
+    padding: 1.6em 3.5em;
+  }
+
+  .cabecalho__navegacao-lista {
+    display: flex;
+    gap: 5em;
+    list-style: none;
+  }
+
+  .navegacao__lista-item {
+    font-size: 1rem;
+    color: var(--color-dark-blue);
+    font-weight: 600;
+  }
+
+  .lista__red {
+    color: var(--color-red);
+  }
+
+  .cabecalho__menu-btn {
+    display: none;
+  }
+}
