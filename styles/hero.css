@@ -102,4 +102,8 @@
     border: 1px solid var(--primary-color-white);
     color: var(--primary-color-white);
   }
+
+  .hero__imagem img {
+    margin-top: 4em;
+  }
 }

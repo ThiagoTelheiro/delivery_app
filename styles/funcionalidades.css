@@ -4,7 +4,12 @@
   align-items: center;
   gap: 4em;
   text-align: center;
-  padding: 0 1em 2em 1em;
+  padding: 0 1em 5em 1em;
+}
+
+.conteudo__row {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .funcionalidades__subparagrafo {
@@ -33,4 +38,19 @@
   font-weight: 500;
   color: var(--color-gray);
   line-height: 38px;
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 769px) {
+  .funcionalidades__conteudo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: 6em;
+  }
+
+  .funcionalidades__texto {
+    text-align: left;
+    width: 50%;
+  }
 }
