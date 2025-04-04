@@ -11,12 +11,16 @@
   margin-bottom: 1em;
 }
 
-.download__paragrafo {
+.download__paragrafo-mobile {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--color-gray);
   line-height: 38px;
   margin-bottom: 2em;
+}
+
+.download__paragrafo-desktop {
+  display: none;
 }
 
 .download__btn {
@@ -27,7 +31,8 @@
 
 .download__btn-buy,
 .download__btn-try {
-  width: 50%;
+  max-width: 173px;
+  width: 100%;
   padding: 1.125em 0;
   border-radius: 10px;
   font-size: 1rem;
@@ -40,4 +45,26 @@
 .download__btn-try {
   border: 1px solid var(--second-color-white);
   background-color: transparent;
+}
+
+@media screen and (min-width: 769px) {
+  .download {
+    background-image: url(../imagens/Rectangle\ 47.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .download__paragrafo-mobile {
+    display: none;
+  }
+
+  .download__paragrafo-desktop {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--second-color-white);
+    line-height: 38px;
+    margin-bottom: 2em;
+  }
 }
